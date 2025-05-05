@@ -1,0 +1,21 @@
+
+// //fahrenheit to celcius
+// var farn = parseFloat(prompt("Enter farn = "))
+
+
+
+// var celcius =(farn - 32)* (5/9);
+// document.writeln("celcius = " ,+celcius);
+
+
+
+
+
+// celcius to fahrenheit
+var celcius = parseFloat(prompt("Enter celcius = "))
+
+
+
+var fahrenheit =(celcius * 9/5)+32;
+document.writeln(" fahrenheit = " ,+fahrenheit);
+

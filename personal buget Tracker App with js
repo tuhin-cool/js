@@ -1,0 +1,35 @@
+ const UserName = 'Tufan Khan';
+ const Income = 5000;
+
+ // multiple expenses
+
+ let rent = 1200;
+ let groceries =600;
+ let tranport = 200;
+let entertainment =300;
+
+//totalexpence
+let totalexpence = rent + groceries + tranport + entertainment;
+
+// tax
+let tax = Income * 0.10;
+
+//net Income after the tax
+let  netIncome = Income - tax;
+
+//calculate remaining balance
+let blance = netIncome - totalexpence;
+
+//savings 20% remaining balance
+let savings = blance * 0.2;
+
+
+
+console.log('personal buget Tracker App');
+console.log('User: ' + UserName);
+console.log('total income:' + Income);
+console.log('Total expence:' + totalexpence);
+console.log('tax deducated (10%):'+ tax);
+console.log('net income after  tax:'+ netIncome);
+console.log('remaining balance:' + blance);
+console.log('savings 20% remaining balance:' + savings);

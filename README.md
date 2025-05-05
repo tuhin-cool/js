@@ -1,2 +1,28 @@
-# js
-js ALL Library function
+    
+  var num1 = prompt("Enter a frist num1 ");
+  var num2 = prompt("Enter a last num2");
+   
+  num1 = parseInt(num1, 10);
+   num2 = parseInt (num2, 10);
+   
+
+   var sum = num1 + num2;
+   document.write(num1 + "+" + num2 + "="+ sum + "<br/>");
+
+  
+
+
+   var sub = num1 - num2;
+   document.write(num1 + "-" + num2 + "="+ sub + "<br/>");
+
+  
+
+   var div = num1 * num2;
+   document.write(num1 + "*" + num2 + "="+ div + "<br/>");
+        
+   
+   var rem = num1 / num2;
+   document.write(num1 + "/" + num2 + "="+ rem + "<br/>");
+      
+
+    </script>

@@ -24,5 +24,3 @@
    var rem = num1 / num2;
    document.write(num1 + "/" + num2 + "="+ rem + "<br/>");
       
-
-    </script>

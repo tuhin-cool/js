@@ -1,0 +1,20 @@
+
+// //area calculate
+// var base = parseInt(prompt("Enter Base = "))
+// var height = parseInt(prompt("Enter height"))
+
+
+// var area = base*height;
+// document.writeln("Area = " ,+area);
+
+
+
+
+
+//tringle
+var base = parseFloat(prompt("Enter Base = "))
+var height = parseFloat(prompt("Enter height"))
+
+
+var area =( base*height)/2;
+document.writeln("Area = " ,+area);

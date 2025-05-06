@@ -1,0 +1,24 @@
+//odd or even
+var num = prompt("Enter any number = ");
+
+if(num%2==0){
+    console.log('even',+num);
+}
+else{
+    console.log('odd =', + num);
+}
+
+
+     //use posetive or angetive
+var num = prompt("Enter any number = ");
+ num = Number(num);
+
+if(num>0)
+   console.log(`posetive ${num}`);
+
+
+else if (num<0) 
+    console.log(`nagetive ${num}`);
+
+else 
+    console.log(`Zero= ${num}`);
